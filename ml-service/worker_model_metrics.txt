@@ -1,0 +1,11 @@
+WORKER TASK-DURATION MODEL - PROTOTYPE
+Target: historical hours_worked
+Dataset: exported work-log records
+Valid records: 41
+Training records for evaluation: 32
+Testing records for evaluation: 9
+Baseline test MAE: 0.718 hours
+
+This model estimates historical task duration, not worker success probability or overall worker suitability.
+Evaluation is a preliminary baseline and may be optimistic if records from the same worker or order overlap.
+Use real-world validation before operational decisions.

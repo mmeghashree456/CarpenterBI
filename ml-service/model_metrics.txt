@@ -1,0 +1,13 @@
+CARPENTER BI - MATERIAL DEMAND MODEL
+Dataset: synthetic demonstration data
+Usable records: 9945
+Materials: 9
+Training records: 7956
+Testing records: 1989
+Test period begins: 2026-03-19
+MAE: 1.631
+RMSE: 2.727
+R2: 0.801
+
+MAE and RMSE are measured in each material's own units.
+Results on synthetic data do not validate real-world accuracy.

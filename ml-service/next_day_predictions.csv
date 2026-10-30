@@ -1,0 +1,10 @@
+date,material_name,opening_stock,predicted_quantity_used,estimated_stockout_risk
+2026-10-26,MDF Board,15.87,1.8358517316017322,No immediate stockout indicated
+2026-10-26,Oak Wood,35.2,2.8974109848484852,No immediate stockout indicated
+2026-10-26,Pine Wood,32.46,4.841089466089467,No immediate stockout indicated
+2026-10-26,Plywood,13.98,2.4435561105561097,No immediate stockout indicated
+2026-10-26,Rosewood,46.68,1.5852800505050495,No immediate stockout indicated
+2026-10-26,Teak Wood,30.88,4.9326697746697725,No immediate stockout indicated
+2026-10-26,Varnish,5.15,0.8741461177711176,No immediate stockout indicated
+2026-10-26,Wood Glue,4.56,0.624129256854257,No immediate stockout indicated
+2026-10-26,Wood Screws,192.67,28.572361832611822,No immediate stockout indicated
