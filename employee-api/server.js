@@ -12,6 +12,8 @@ app.use(express.json({ limit: "1mb" }));
 
 const pool = require("./db");
 const PORT = process.env.PORT || 3000;
+const ML_SERVICE_URL =
+  process.env.ML_SERVICE_URL || "http://127.0.0.1:8000";
 
 // ---------- Shared validation helpers ----------
 
@@ -1266,7 +1268,7 @@ app.post("/recommendations/worker", async (req, res) => {
     const predictions = await Promise.all(
       employeesResult.rows.map(async (employee) => {
         const response = await fetch(
-          "http://127.0.0.1:8000/predictions/worker-duration",
+          `${ML_SERVICE_URL}/predictions/worker-duration`,
           {
             method: "POST",
             headers: {
