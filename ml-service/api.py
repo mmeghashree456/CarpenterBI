@@ -16,7 +16,10 @@ app = FastAPI(title="Carpenter BI ML API", version="1.0.0")
 # Permit requests from your local Next.js frontend.
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3001"],
+    allow_origins=[
+        "http://localhost:3001",
+        "https://carpenterbi-frontend.onrender.com",
+    ],
     allow_credentials=False,
     allow_methods=["GET", "POST"],
     allow_headers=["*"],
