@@ -8,6 +8,7 @@ It brings together employee management, inventory tracking, order management, ta
 
 The platform aims to help workshop owners improve operational visibility, organize resources and make data-informed business decisions.
 
+Live link - https://carpenterbi-frontend.onrender.com/
 ---
 
 ## 🚀 Key Features
